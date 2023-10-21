@@ -1,0 +1,270 @@
+
+# Example of dictionaries for Enneagram and MBTI traits
+enneagram_dict = {
+    "1w9_healthy": {
+        "traits": ["Ethical", "Calm", "Organized", "Patient"],
+        "jobs": ["Auditor", "Judge", "Librarian"]
+    },
+    "1w9_average": {
+        "traits": ["Critical", "Detached", "Systematic"],
+        "jobs": ["Quality Control Inspector", "Technical Writer"]
+    },
+    "1w9_unhealthy": {
+        "traits": ["Rigid", "Withdrawn", "Obsessive"],
+        "jobs": []  # May need support to find suitable employment
+    },
+    "1w2_healthy": {
+        "traits": ["Idealistic", "Helpful", "Organized", "Empathetic"],
+        "jobs": ["Non-profit Organizer", "Counselor", "Healthcare Administrator"]
+    },
+      "2w1_healthy": {
+        "traits": ["Helpful", "Ethical", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    },
+    "2w1_average": {
+        "traits": ["People-Pleasing", "Critical", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "2w1_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "2w3_healthy": {
+        "traits": ["Helpful", "Ambitious", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    }, 
+    "2w3_average": {
+        "traits": ["People-Pleasing", "Ambitious", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "2w3_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "3w2_healthy": {
+        "traits": ["Ambitious", "Helpful", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    },
+    "3w2_average": {
+        "traits": ["Ambitious", "People-Pleasing", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "3w2_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "3w4_healthy": {
+        "traits": ["Ambitious", "Creative", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    },
+    "3w4_average": {
+        "traits": ["Ambitious", "Creative", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "3w4_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "4w3_healthy": {
+        "traits": ["Creative", "Ambitious", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    },
+    "4w3_average": {
+        "traits": ["Creative", "Ambitious", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "4w3_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "4w5_healthy": {
+        "traits": ["Creative", "Intellectual", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    },
+    "4w5_average": {
+        "traits": ["Creative", "Intellectual", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "4w5_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "5w4_healthy": {
+        "traits": ["Intellectual", "Creative", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    },
+    "5w4_average": {
+        "traits": ["Intellectual", "Creative", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "5w4_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "5w6_healthy": {
+        "traits": ["Intellectual", "Loyal", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    },
+    "5w6_average": {
+        "traits": ["Intellectual", "Loyal", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "5w6_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "6w5_healthy": {
+        "traits": ["Loyal", "Intellectual", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    },
+    "6w5_average": {
+        "traits": ["Loyal", "Intellectual", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "6w5_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "6w7_healthy": {
+        "traits": ["Loyal", "Adventurous", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    },
+    "6w7_average": {
+        "traits": ["Loyal", "Adventurous", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "6w7_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "7w6_healthy": {
+        "traits": ["Adventurous", "Loyal", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    },
+    "7w6_average": {
+        "traits": ["Adventurous", "Loyal", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "7w6_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "7w8_healthy": {
+        "traits": ["Adventurous", "Strong", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    },
+    "7w8_average": {
+        "traits": ["Adventurous", "Strong", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "7w8_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "8w7_healthy": {
+        "traits": ["Strong", "Adventurous", "Organized", "Empathetic"],
+        "jobs": ["Counselor", "Non-profit Organizer", "Healthcare Administrator"]
+    },
+    "8w7_average": {
+        "traits": ["Strong", "Adventurous", "Overextended"],
+        "jobs": ["Customer Service Representative", "Salesperson"]
+    },
+    "8w7_unhealthy": {
+        "traits": ["Manipulative", "Overcritical", "Overwhelmed"],
+        "jobs": []
+    },
+    "8w9_healthy": {
+        "traits": ["Strong", "Calm", "Organized", "Patient"],
+        "jobs": ["Auditor", "Judge", "Librarian"]
+    },
+    "8w9_average": {
+        "traits": ["Strong", "Detached", "Systematic"],
+        "jobs": ["Quality Control Inspector", "Technical Writer"]
+    },
+    "8w9_unhealthy": {
+        "traits": ["Rigid", "Withdrawn", "Obsessive"],
+        "jobs": []  # May need support to find suitable employment
+    },
+
+    "9w8_healthy": {
+        "traits": ["Peaceful", "Assertive", "Supportive", "Strong"],
+        "jobs": ["Human Resources", "Mediator", "Community Organizer"]
+    },
+    "9w8_average": {
+        "traits": ["Passive", "Stubborn", "Avoidant"],
+        "jobs": ["Administrative Assistant", "Customer Service Representative"]
+    },
+    "9w8_unhealthy": {
+        "traits": ["Apathetic", "Volatile", "Neglectful"],
+        "jobs": []  # May need support to find suitable employment
+    },
+}
+
+
+
+mbti_dict = {
+    "ENFJ": {"traits": ["inspiring", "charismatic"], "jobs": ["teacher", "motivational speaker"]},
+    "INFP": {"traits": ["creative", "idealistic"], "jobs": ["writer", "artist"]},
+    "INFJ": {"traits": ["empathetic", "insightful"], "jobs": ["counselor", "psychologist"]},
+    "ENFP": {"traits": ["enthusiastic", "creative"], "jobs": ["advertising", "journalism"]},
+    "INTJ": {"traits": ["strategic", "analytical"], "jobs": ["scientist", "engineer"]},
+    "ENTJ": {"traits": ["leader", "organized"], "jobs": ["manager", "executive"]},
+    "INTP": {"traits": ["innovative", "logical"], "jobs": ["software developer", "architect"]},
+    "ENTP": {"traits": ["inventive", "quick-witted"], "jobs": ["entrepreneur", "consultant"]},
+    "ISFJ": {"traits": ["nurturing", "dependable"], "jobs": ["nurse", "teacher"]},
+    "ESFJ": {"traits": ["supportive", "organized"], "jobs": ["administrative assistant", "human resources"]},
+    "ISTJ": {"traits": ["responsible", "practical"], "jobs": ["accountant", "lawyer"]},
+    "ESTJ": {"traits": ["decisive", "efficient"], "jobs": ["manager", "military officer"]},
+    "ISFP": {"traits": ["artistic", "gentle"], "jobs": ["designer", "gardener"]},
+    "ESFP": {"traits": ["outgoing", "practical"], "jobs": ["salesperson", "performer"]},
+    "ISTP": {"traits": ["problem-solver", "self-reliant"], "jobs": ["mechanic", "electrician"]},
+    "ESTP": {"traits": ["energetic", "perceptive"], "jobs": ["marketer", "emergency medical technician"]}
+}
+
+
+# Get user input
+enneagram_input = input("Enter your Enneagram type with wing and health level (e.g., 2w1_healthy): ")
+mbti_input = input("Enter your MBTI type (e.g., ENFJ): ")
+
+def generate_profile(enneagram_type, mbti_type):
+    ennea_traits = enneagram_dict[enneagram_type]["traits"]
+    ennea_jobs = enneagram_dict[enneagram_type]["jobs"]
+    mbti_traits = mbti_dict[mbti_type]["traits"]  # Corrected from mbti_traits to mbti_dict
+    mbti_jobs = mbti_dict[mbti_type]["jobs"]  # Corrected from mbti_traits to mbti_dict
+    
+    combined_traits = list(set(ennea_traits + mbti_traits))  # Corrected from mbti_traits_list to mbti_traits
+    combined_jobs = list(set(ennea_jobs + mbti_jobs))  # Combine and deduplicate job recommendations
+    
+    # Create a profile description
+    profile_description = f"This personality is characterized by traits such as {', '.join(combined_traits)}. They would thrive in roles such as {', '.join(combined_jobs)}."
+    
+    profile = {
+        "traits": combined_traits,
+        "jobs": combined_jobs,
+        "description": profile_description
+    }
+    
+    return profile
+
+# Example usage
+profile = generate_profile(enneagram_input, mbti_input)
+print(profile["description"])
+
+# Assuming enneagram_dict and mbti_dict are your dictionaries
+enneagram_traits = enneagram_dict[enneagram_input]["traits"]
+enneagram_jobs = enneagram_dict[enneagram_input]["jobs"]
+mbti_traits = mbti_dict[mbti_input]["traits"]  # Note: changed from mbti_traits to mbti_dict
+mbti_jobs = mbti_dict[mbti_input]["jobs"]  # Note: changed from mbti_traits to mbti_dict
+
+# Merge the traits and jobs
+merged_traits = enneagram_traits + mbti_traits
+merged_jobs = enneagram_jobs + mbti_jobs
+
+profile_description = f"You are a {', '.join(merged_traits)} individual. Suitable career paths might include: {', '.join(merged_jobs)}."
+print(profile_description)
+
+# Example usage
+enneagram_type = "1w9_healthy"
+mbti_type = "ENFJ"
+profile = generate_profile(enneagram_type, mbti_type)
+print(profile["description"])
